@@ -242,50 +242,50 @@
 // export default Exercise3;
 
 // Exercise 4
-// import React from 'react';
-// import {StyleSheet,Text,View} from 'react-native';
-//
-// const styles = StyleSheet.create({
-//   parent: {
-//       flexDirection: 'row',
-//       backgroundColor: 'whitesmoke',
-//       marginTop:30,
-//       flex: 1,
-//       justifyContent: "space-evenly",
-//       alignItems: "center",
-//
-//   },
-//
-//   child: {
-//       width:80,
-//       height:80,
-//       marginTop: 30,
-//       justifyContent: "space-evenly",
-//       alignItems: "center",
-//
-//   }
-// })
-//
-// const Exercise4 = () => {
-//     return (
-//         <View style={[styles.parent,{marginTop: 50}]}>
-//             <View style={[styles.child, {backgroundColor: 'lightblue'}]}>
-//                 <Text>
-//                     Square 1</Text>
-//             </View>
-//             <View style={[styles.child, {backgroundColor: 'teal'}]}>
-//                 <Text>
-//                     Square 2</Text>
-//             </View>
-//             <View style={[styles.child, {backgroundColor: 'red'}]}>
-//                 <Text>
-//                     Square 3</Text>
-//             </View>
-//         </View>
-//     )
-// }
-//
-// export default Exercise4
+import React from 'react';
+import {StyleSheet,Text,View} from 'react-native';
+
+const styles = StyleSheet.create({
+  parent: {
+      flexDirection: 'row',
+      backgroundColor: 'whitesmoke',
+      marginTop:30,
+      flex: 1,
+      justifyContent: "space-evenly",
+      alignItems: "center",
+
+  },
+
+  child: {
+      width:80,
+      height:80,
+      marginTop: 30,
+      justifyContent: "space-evenly",
+      alignItems: "center",
+
+  }
+})
+
+const Exercise4 = () => {
+    return (
+        <View style={[styles.parent,{marginTop: 50}]}>
+            <View style={[styles.child, {backgroundColor: 'lightblue'}]}>
+                <Text>
+                    Square 1</Text>
+            </View>
+            <View style={[styles.child, {backgroundColor: 'teal'}]}>
+                <Text>
+                    Square 2</Text>
+            </View>
+            <View style={[styles.child, {backgroundColor: 'red'}]}>
+                <Text>
+                    Square 3</Text>
+            </View>
+        </View>
+    )
+}
+
+export default Exercise4
 
 
 
